@@ -1,0 +1,216 @@
+[
+  {
+    "id": 8,
+    "direction": "West",
+    "street": "Stationsweg",
+    "houses": [
+      {
+        "id": 9,
+        "email": "xyz@gmail.com",
+        "phoneNumber": "+311234567891",
+        "houseNumber": "17C",
+        "neighborhood": 8,
+        "devices": [
+          {
+            "id": 1,
+            "house": 9,
+            "make": "Philips",
+            "wattage": "50",
+            "voltage": "10",
+            "usages": [
+              {
+                "id": 1,
+                "timeCreated": {
+                  "timezone": {
+                    "name": "UTC",
+                    "transitions": [
+                      {
+                        "ts": -9223372036854775808,
+                        "time": "-292277022657-01-27T08:29:52+0000",
+                        "offset": 0,
+                        "isdst": false,
+                        "abbr": "UTC"
+                      }
+                    ],
+                    "location": {
+                      "country_code": "??",
+                      "latitude": -90,
+                      "longitude": -180,
+                      "comments": ""
+                    }
+                  },
+                  "offset": 0,
+                  "timestamp": 1637697569
+                },
+                "house": 9,
+                "device": 1,
+                "consumption": "25"
+              }
+            ]
+          }
+        ],
+        "usages": [
+          {
+            "id": 1,
+            "timeCreated": {
+              "timezone": {
+                "name": "UTC",
+                "transitions": [
+                  {
+                    "ts": -9223372036854775808,
+                    "time": "-292277022657-01-27T08:29:52+0000",
+                    "offset": 0,
+                    "isdst": false,
+                    "abbr": "UTC"
+                  }
+                ],
+                "location": {
+                  "country_code": "??",
+                  "latitude": -90,
+                  "longitude": -180,
+                  "comments": ""
+                }
+              },
+              "offset": 0,
+              "timestamp": 1637697569
+            },
+            "house": 9,
+            "device": {
+              "id": 1,
+              "house": 9,
+              "make": "Philips",
+              "wattage": "50",
+              "voltage": "10",
+              "usages": [
+                1
+              ]
+            },
+            "consumption": "25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "direction": "North",
+    "street": "Lombokpad",
+    "houses": [
+      {
+        "id": 10,
+        "email": "abc@gmail.com",
+        "phoneNumber": "+311234567891",
+        "houseNumber": "15A",
+        "neighborhood": 10,
+        "devices": [
+          {
+            "id": 2,
+            "house": 10,
+            "make": "Samsung",
+            "wattage": "70",
+            "voltage": "15",
+            "usages": [
+              {
+                "id": 2,
+                "timeCreated": {
+                  "timezone": {
+                    "name": "UTC",
+                    "transitions": [
+                      {
+                        "ts": -9223372036854775808,
+                        "time": "-292277022657-01-27T08:29:52+0000",
+                        "offset": 0,
+                        "isdst": false,
+                        "abbr": "UTC"
+                      }
+                    ],
+                    "location": {
+                      "country_code": "??",
+                      "latitude": -90,
+                      "longitude": -180,
+                      "comments": ""
+                    }
+                  },
+                  "offset": 0,
+                  "timestamp": 1637698004
+                },
+                "house": 10,
+                "device": 2,
+                "consumption": "27"
+              }
+            ]
+          }
+        ],
+        "usages": [
+          {
+            "id": 2,
+            "timeCreated": {
+              "timezone": {
+                "name": "UTC",
+                "transitions": [
+                  {
+                    "ts": -9223372036854775808,
+                    "time": "-292277022657-01-27T08:29:52+0000",
+                    "offset": 0,
+                    "isdst": false,
+                    "abbr": "UTC"
+                  }
+                ],
+                "location": {
+                  "country_code": "??",
+                  "latitude": -90,
+                  "longitude": -180,
+                  "comments": ""
+                }
+              },
+              "offset": 0,
+              "timestamp": 1637698004
+            },
+            "house": 10,
+            "device": {
+              "id": 2,
+              "house": 10,
+              "make": "Samsung",
+              "wattage": "70",
+              "voltage": "15",
+              "usages": [
+                2
+              ]
+            },
+            "consumption": "27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "direction": "West",
+    "street": "Lombokpad",
+    "houses": []
+  },
+  {
+    "id": 12,
+    "direction": "East",
+    "street": "Nuenen",
+    "houses": []
+  },
+  {
+    "id": 13,
+    "direction": "West",
+    "street": "Strijp",
+    "houses": []
+  },
+  {
+    "id": 14,
+    "direction": "West",
+    "street": "Stationsstraat",
+    "houses": []
+  },
+  {
+    "id": 16,
+    "direction": "South",
+    "street": "Brandenvoort",
+    "houses": []
+  }
+]
